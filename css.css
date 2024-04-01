@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); /* Replace with your image path */
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+	margin:10px;
+}
+.aboutUs{
+	background-image: url('https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=1024x1024&w=is&k=20&c=f-lsA-A5AKC8qdi0wp4sEoF1Ay7raH23M4T8xyHr0sY='); /* Replace with your image path */
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 90px 0;
+	margin:10px;
+}
+.menu{
+	background-image: url('https://unsplash.com/photos/coffee-beans-on-white-ceramic-mug-beside-stainless-steel-spoon-LMzwJDu6hTE'); /* Replace with your image path */
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 90px 0;
+	margin:10px;
+}
+.Coffe{
+	font-family: 'Roboto';
+	text-decoration:underline;
+}
+.contactUs{
+	display:flex;
+	text-align:center;
+	font-family:'Roboto';
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header, section {
+        padding: 50px 5%;
+    }
+}
